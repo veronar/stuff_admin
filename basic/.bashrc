@@ -1,7 +1,7 @@
 alias g='gcc -Wall -Werror -Wextra';
 alias ls='ls -la';
 alias norm='norminette -R CheckForbiddenSourceHeader';
-alias vol='cd /Volumes/'
+alias vol='cd /Volumes/';
 export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;31m'
 export LESS_TERMCAP_me=$'\E[0m'
