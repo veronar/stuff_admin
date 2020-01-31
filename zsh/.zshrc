@@ -8,6 +8,7 @@ alias gcom='git checkout master'
 alias gm='git merge'
 alias gA='git add -A'
 alias gcmsg='git commit -m'
+# was gcm - Oh-My-Zsh gcm default is gcm='git commit -v'?
 alias m='make'
 alias mc='make clean'
 alias mf='make fclean'
