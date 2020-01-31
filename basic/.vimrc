@@ -1,5 +1,6 @@
 set number
 set ruler
+set colorcolumn=80
 set undolevels=1000
 set backspace=indent,eol,start
 set autoindent
