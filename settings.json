@@ -8,9 +8,7 @@
 	"workbench.editor.highlightModifiedTabs": true,
 	"files.autoSave": "afterDelay",
 	"sync.gist": "e5ec1ba7295ac89f56074f684ae09eb7",
-	"editor.rulers": [
-		80
-	],
+	"editor.rulers": [80],
 	"editor.fontLigatures": true,
 	"editor.formatOnSave": true,
 	"prettier.useTabs": true,
@@ -29,7 +27,10 @@
 		"editor.tabSize": 4
 	},
 	"extensions.ignoreRecommendations": false,
-	// Defaults to bash / Oh-My-Zsh on windows at home (instead of Powershell)
-	"terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\wsl.exe"
-}
 
+	// Defaults to Oh-My-Zsh (if installed) on windows at home (instead of Powershell)
+	// if Oh-My-Zsh not installed will revert to default bash wsl
+	"terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\wsl.exe"
+	// If Oh-My-Zsh installed, to force bash shell
+	// "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\bash.exe"
+}
