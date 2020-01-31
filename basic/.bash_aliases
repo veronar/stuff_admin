@@ -2,6 +2,7 @@
 # Custom bashrc 
 
 # Aliases 
+alias vol='cd /Volumes/'
 
 # as per RJWHOBBS (Roger Hobbs - WTC)
 alias g='gcc -Wall -Werror -Wextra'
@@ -19,4 +20,3 @@ alias nh='norminette -R CheckForbiddenSourceHeader'
 alias c='cat -e'
 # alias lf='./ft_ls' lol clearly Unix student
 alias px='chmod u+x *.php'
-alias vol='cd /Volumes/'

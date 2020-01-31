@@ -1,0 +1,35 @@
+// Extension: Settings Sync (shan.code-settings-sync)
+// 'alt + shift + u' To upload settings
+// 'alt + shift + d' To download settings
+
+{
+	"editor.insertSpaces": false,
+	"editor.tabSize": 2,
+	"workbench.editor.highlightModifiedTabs": true,
+	"files.autoSave": "afterDelay",
+	"sync.gist": "e5ec1ba7295ac89f56074f684ae09eb7",
+	"editor.rulers": [
+		80
+	],
+	"editor.fontLigatures": true,
+	"editor.formatOnSave": true,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+	"files.insertFinalNewline": true,
+	"[javascript]": {
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4
+	},
+	"[c]": {
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4
+	},
+	"[html]": {
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4
+	},
+	"extensions.ignoreRecommendations": false,
+	// Defaults to bash / Oh-My-Zsh on windows at home (instead of Powershell)
+	"terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\wsl.exe"
+}
+

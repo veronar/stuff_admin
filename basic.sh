@@ -39,9 +39,9 @@ cp ./basic/.bash_aliases ~/;
 echo "Bash aliases";
 cp -R ./basic/.vim ~/;
 echo "Color + 42Header";
-cp ./basic/.vimrc ~/;
+cp ./.vimrc ~/;
 echo "Vimrc";
-cp ./basic/.gitignore ~/;
+cp ./.gitignore ~/;
 echo "Gitignore";
 
 open -a "Google Chrome" https://wethinkcodestudents.slack.com/

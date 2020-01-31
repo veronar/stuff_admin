@@ -6,13 +6,13 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
 echo "This is LINUXXX!!!!!!"
 
 # Copy in zshrc
-cp ./.zshrc ~/
+cp ../.zshrc ~/
 # Copy in vimrc
-cp ./.vimrc ~/
+cp ../.vimrc ~/
 # Make dir for vim color theme
 mkdir -p ~/.vim/colors
 # Copy in vim color theme
-cp ./solarized.vim ~/.vim/colors
+cp ../solarized.vim ~/.vim/colors
 
 
 # Check for 'darwin' / mac OS - wtc)
@@ -43,17 +43,26 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Tolsadus/42homebrewfix/mas
 # Once homebrew installed - insstall npm
 brew install npm
 
+# Install Oh-My-Zsh via Curl
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# If manual Oh-My-Zsh installation - set it to default
+# chsh -s $(which zsh)
+# To manually update Oh-My-Zsh
+# upgrade_oh_my_zsh
+# To Uninstall Oh-My-Zsh
+# uninstall_oh_my_zsh
+
 # Resizes dock icons
 defaults write com.apple.dock tilesize -int 75
 
 # Copy in zshrc
-cp ./.zshrc ~/
+cp ../.zshrc ~/
 # Copy in vimrc
-cp ./.vimrc ~/
+cp ../.vimrc ~/
 # Make dir for vim color theme
 mkdir -p ~/.vim/colors
 # Copy in vim color theme
-cp ./solarized.vim ~/.vim/colors
+cp ../solarized.vim ~/.vim/colors
 
 # Kill all unnused / unneccesary apps in dock (wtc macs)
 killall Dock
