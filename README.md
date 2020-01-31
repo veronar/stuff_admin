@@ -1,6 +1,7 @@
 # Stuff
 Scripts for config customisation  
   
-- Basic & basic.sh - [Mike Meyer](https://github.com/MikeFMeyer)
-- zsh (auto.sh) - [Nolin Reddy](https://github.com/nreddystudent)
-- Aliases - [Roger Hobbs](https://github.com/rjwhobbs)
+Built on the knowledge & assistance from:  
+- [Mike Meyer](https://github.com/MikeFMeyer)
+- [Nolin Reddy](https://github.com/nreddystudent)
+- [Roger Hobbs](https://github.com/rjwhobbs)
