@@ -12,3 +12,9 @@ set tabstop=4
 set nobackup
 set noswapfile
 syntax on
+set showmatch " highlight matching [{()}]
+set wildmenu "visual autocomplete for command menu
+set background=dark
+
+let g:solarized_termcolors=256
+colorscheme solarized
