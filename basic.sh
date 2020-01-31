@@ -35,6 +35,8 @@ echo "export USER=$uservar" >> ~/.bashrc
 echo "---- Setup ----"
 cp ./basic/.bashrc ~/;
 echo "Bash config";
+cp ./basic/.bash_aliases ~/;
+echo "Bash aliases";
 cp -R ./basic/.vim ~/;
 echo "Color + 42Header";
 cp ./basic/.vimrc ~/;
