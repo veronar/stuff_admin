@@ -2,12 +2,12 @@
 alias vol='cd /Volumes/'
 
 # as per RJWHOBBS (Roger Hobbs - WTC)
-alias g='gcc -Wall -Werror -Wextra'
+alias gcc='gcc -Wall -Werror -Wextra'
 alias gco='git checkout'
 alias gcom='git checkout master'
 alias gm='git merge'
 alias gA='git add -A'
-alias gc='git commit -m'
+alias gcmsg='git commit -m'
 alias m='make'
 alias mc='make clean'
 alias mf='make fclean'
